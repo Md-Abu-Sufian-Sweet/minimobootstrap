@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum:400,700&display=swap');
+
+/**{
+	margin: 0;
+	padding: 0;
+}*/
+body{
+	font-family: 'Cuprum', sans-serif;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+.banner-section img{
+
+width: 100%;
+}
+
+.blog-section .article{
+
+    padding: 75px;
+}
+
+.blog-section .article h3{
+
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #796969;
+}
+
+.blog-section .article h1{
+
+    text-transform: capitalize;
+    margin: 12px 0;
+    color: #796969;
+    font-size: 29px;
+    font-weight: bold;
+}
+.blog-section .article p{
+
+    color: #333;
+    max-width: 925px;
+}
+
+.blog-section .article a{
+
+    color: #333;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 100px;
+    display: block;
+}
+
+.blog-section .article .post p{
+
+    max-width: 424px;
+}
+.blog-section .article .post a{
+
+    margin: 12px 0px;
+}
+
+.footer-section{
+
+    background-color: #8080809c;
+    padding: 60px 0;
+}
+
+.footer-section ul{
+
+    margin-left: -14px;
+}
+
+.footer-section ul li{
+
+    margin-left: 75px;
+}
+
+.footer-section ul li a{
+	
+    color: #333;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.nav span{
+	
+    text-transform: capitalize;
+}
+
+
+
+.blog-section .article  a:hover h1{
+	
+    color: #000;
+}
+
+.footer-section ul li a:hover{
+	
+    color: #095cdd;
+}
+
+.blog-section .article a:hover{
+	color: #060606;
+}
+@media (max-width:992px){
+	.blog-section .article h1{
+		font-size: 19px;
+	}
+	.footer-section ul li{
+		margin-left: 71px;
+	}
+}
+
+
+
+@media (max-width:768px){
+	.footer-section ul li{
+		margin-left: 47px;
+	}
+}
+@media (max-width:576px){
+	.footer-section ul li{
+		width: 100%;
+		margin-left: 10px;
+	}
+}
+
+
+
